@@ -1,7 +1,12 @@
-#!/usr/bin/
-for i in range(100):
-    print(f"{i:02d}", end=", " if i != 99 else "\n")
-#!/usr/bin/
-for i in range(100):
-    print(f"{i:02d}", end=", " if i != 99 else "\n")
+#!/usr/bin/python3
+import random
+
+number = random.randint(-10, 10)
+
+if number > 0:
+    print(f"{number} is positive")
+elif number == 0:
+    print(f"{number} is zero")
+else:
+    print(f"{number} is negative")
 
