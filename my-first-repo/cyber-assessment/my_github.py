@@ -8,4 +8,4 @@ r = requests.get(url, auth=(sys.argv[1], sys.argv[2]))
 if r.status_code == 200:
     print(r.json().get("id"))
 else:
-    print(None)
+    print("None")
